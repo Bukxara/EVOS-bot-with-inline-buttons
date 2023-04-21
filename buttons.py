@@ -4,7 +4,7 @@ from main import db
 contact = ReplyKeyboardMarkup(
 	keyboard = [
 		[
-			KeyboardButton(text = "Press this button to send your phone number", request_contact = True)
+			KeyboardButton(text = "📱 Send contact", request_contact = True)
 		], 
 	], resize_keyboard = True
 )
@@ -12,7 +12,7 @@ contact = ReplyKeyboardMarkup(
 location = ReplyKeyboardMarkup(
 	keyboard = [
 		[
-			KeyboardButton(text = "Press this button to send your location", request_location = True)
+			KeyboardButton(text = "🌍 Send location", request_location = True)
 		], 
 	], resize_keyboard = True
 )
@@ -27,7 +27,7 @@ menu = ReplyKeyboardMarkup(
 			KeyboardButton(text = "📞 Support")
 		],
 		[
-			KeyboardButton(text = f"📥 Basket")
+			KeyboardButton(text = "📥 Basket")
 		]
 	], resize_keyboard = True
 )
